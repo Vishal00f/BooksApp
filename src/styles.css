@@ -1,0 +1,40 @@
+.box{
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    background-color: rgba(8, 7, 7, 0.68);
+}
+.heading{
+    margin-left: 1rem;
+    color:whitesmoke;
+    
+}
+.btn{
+    position: relative;
+    top:-4.5px;
+    color: whitesmoke;
+
+}
+.btn:hover{
+    border: 1px solid black;
+}
+.actions{
+    margin-left:10px;
+    position:absolute;
+    right:0;
+    top:5px;
+}
+.book-show{border:1px solid gray;border-radius:5px;margin:10px;padding:20px;width:300px}.book-edit{align-items:flex-start;display:flex;flex-direction:column}.book-edit button{margin:10px 0}.book-show{align-self:flex-start;box-shadow:0 0 4px #c8c8c8;position:relative}@media screen and (max-width:961px){.book-show{align-self:center}}.book-show h3{font-size:24px}.book-show .actions{margin-left:10px;position:absolute;right:0;top:5px}.book-show img{margin-top:10px;width:100%}.book-show button{margin-right:5px}.book-show .edit{background-color:hsla(0,0%,4%,.2);border:none;border-radius:9999px;cursor:pointer;display:inline-block;flex-grow:0;flex-shrink:0;font-size:0;height:20px;max-height:20px;max-width:20px;min-height:20px;min-width:20px;outline:none;pointer-events:auto;position:relative;vertical-align:top;width:20px}.book-show .edit:after{color:#fff;content:"✎";display:block;font-size:15px;font-weight:700;height:20px;left:50%;position:absolute;top:50%;-webkit-transform:translateX(-50%) translateY(-50%) rotate(20deg);transform:translateX(-50%) translateY(-50%) rotate(20deg);-webkit-transform-origin:center center;transform-origin:center center;width:20px;z-index:10}
+.delete,.modal-close{-webkit-touch-callout:none;-moz-appearance:none;-webkit-appearance:none;background-color:hsla(0,0%,4%,.2);border:none;border-radius:9999px;cursor:pointer;display:inline-block;flex-grow:0;flex-shrink:0;font-size:0;height:20px;max-height:20px;max-width:20px;min-height:20px;min-width:20px;outline:none;pointer-events:auto;position:relative;-webkit-user-select:none;user-select:none;vertical-align:top;width:20px}.delete:after,.delete:before,.modal-close:after,.modal-close:before{background-color:#fff;content:"";display:block;left:50%;position:absolute;top:50%;-webkit-transform:translateX(-50%) translateY(-50%) rotate(45deg);transform:translateX(-50%) translateY(-50%) rotate(45deg);-webkit-transform-origin:center center;transform-origin:center center}.delete:before,.modal-close:before{height:2px;width:50%}.delete:after,.modal-close:after{height:50%;width:2px}.delete:focus,.delete:hover,.modal-close:focus,.modal-close:hover{background-color:hsla(0,0%,4%,.3)}.delete:active,.modal-close:active{background-color:hsla(0,0%,4%,.4)}.is-small.delete,.is-small.modal-close{height:16px;max-height:16px;max-width:16px;min-height:16px;min-width:16px;width:16px}.is-medium.delete,.is-medium.modal-close{height:24px;max-height:24px;max-width:24px;min-height:24px;min-width:24px;width:24px}.is-large.delete,.is-large.modal-close{height:32px;max-height:32px;max-width:32px;min-height:32px;min-width:32px;width:32px}.button.is-loading:after,.control.is-loading:after,.loader,.select.is-loading:after{-webkit-animation:spinAround .5s linear infinite;animation:spinAround .5s linear infinite;border-color:transparent transparent #dbdbdb #dbdbdb;border-radius:9999px;border-style:solid;border-width:2px;content:"";display:block;height:1em;position:relative;width:1em}.hero-video,.image.is-16by9 .has-ratio,.image.is-16by9 img,.image.is-1by1 .has-ratio,.image.is-1by1 img,.image.is-1by2 .has-ratio,.image.is-1by2 img,.image.is-1by3 .has-ratio,.image.is-1by3 img,.image.is-2by1 .has-ratio,.image.is-2by1 img,.image.is-2by3 .has-ratio,.image.is-2by3 img,.image.is-3by1 .has-ratio,.image.is-3by1 img,.image.is-3by2 .has-ratio,.image.is-3by2 img,.image.is-3by4 .has-ratio,.image.is-3by4 img,.image.is-3by5 .has-ratio,.image.is-3by5 img,.image.is-4by3 .has-ratio,.image.is-4by3 img,.image.is-4by5 .has-ratio,.image.is-4by5 img,.image.is-5by3 .has-ratio,.image.is-5by3 img,.image.is-5by4 .has-ratio,.image.is-5by4 img,.image.is-9by16 .has-ratio,.image.is-9by16 img,.image.is-square .has-ratio,.image.is-square img,.is-overlay,.modal,.modal-background{bottom:0;left:0;position:absolute;right:0;top:0}
+h3{
+    color: black;
+}
+.book-edit{align-items:flex-start;display:flex;flex-direction:column}.book-edit button{margin:10px 0}
+
+.input{
+    margin-top: 9px;
+    border-radius: 10%;
+}
+.book-show{
+    display: inline-block;
+}
