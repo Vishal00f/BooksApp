@@ -1,13 +1,14 @@
-import { useState } from "react";
-
-function BookEdit({book,onEdit,setShowEdit}){
+import {  useState } from "react";
+import useBooksContext from '../hooks/use_books_context';
+function BookEdit({book,setShowEdit}){
+    const {editBookById}=useBooksContext;
     const [newTitle,setTitle]=useState(book.title);
     const handleChange= (event)=>{
         setTitle(event.target.value);
     }
     const handleSubmit=(event)=>{
         event.preventDefault();
-        onEdit(book.id,newTitle);
+        editBookById(book.id,newTitle);
         setShowEdit(false);
     }
 
